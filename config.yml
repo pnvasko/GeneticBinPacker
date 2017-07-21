@@ -1,0 +1,18 @@
+version: '0.1'
+name: 'Genetic Programming Dimensional Bin Packing'
+workarea:
+    x: 50
+    y: 50
+qsamplemin: 10
+qsamplemax: 15
+samlesizemax: 20
+size: 150
+crossover: 0.8
+mutation: 0.7
+iterations: 1000
+fittestAlwaysSurvives: 'true'
+maxResults: 1
+skip: 10
+drift: 0.25
+debug: 'false'
+
